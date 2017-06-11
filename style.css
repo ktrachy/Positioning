@@ -1,0 +1,55 @@
+
+ body {
+    font: arial;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: lightblue;
+    padding:10;
+}
+
+.box-set {
+
+	background: #eaeaed;
+}
+
+.box {
+	background: pink;
+	height:200px;
+	width:200px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+}
+
+.box-1 {
+	height:200px;
+	width:200px;
+	position: fixed;
+	background: lightgray;
+	
+}
+
+.box-2 {
+  
+    height:200px;
+	width:100%;
+	position: relative;
+	background: pink;
+
+}
+
+.box-3 {
+	position: absolute;
+	height: 100px;
+	width: 300px;
+	top: 650px;
+	right: 125px;
+	background: gray;
+	z-index:99;
+
+}
+
